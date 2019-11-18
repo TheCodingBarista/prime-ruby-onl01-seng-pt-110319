@@ -1,4 +1,4 @@
-def prime?(integer)
+def prime?(value)
   if value <= 1 || value == 0 || value == 1
     return false
   elsif
@@ -8,5 +8,5 @@ def prime?(integer)
       end
     end
   end
-#true
+true
 end
